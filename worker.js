@@ -12,7 +12,7 @@ export default {
 
           // เรียกใช้โมเดล Llama 3 (เปลี่ยนได้)
           const response = await env.AI.runStreaming(
-            "@cf/meta/llama-3-8b-instruct",
+            "@cf/openai/gpt-oss-120b",
             { messages }
           );
 
